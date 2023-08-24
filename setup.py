@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='colablib',
-    version='0.1.7',
+    version='0.1.8',
     packages=find_packages(),
     install_requires=[
         'safetensors==0.3.3',
@@ -14,6 +14,10 @@ setup(
         'rarfile==4.0',
         'xmltodict==0.13.0',
         'pydantic==2.3.0',
+        'urllib3==2.0.4',
+        'chardet==5.2.0',
+        'charset-normalizer==3.2.0'
+        
     ],
     author='Furqanil Taqwa',
     author_email='furqanil.taqwa@gmail.com',
