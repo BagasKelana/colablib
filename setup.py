@@ -5,9 +5,9 @@ setup(
     version='0.1.8',
     packages=find_packages(),
     install_requires=[
-        'charset_normalizer==2.0.12'
-        'chardet==5.2.0
-        'urllib3==2.0.4'
+        'charset_normalizer==2.0.12',
+        'chardet==5.2.0',
+        'urllib3==2.0.4',
         'safetensors==0.3.1',
         'requests==2.27.1',
         'tqdm==4.65.0',
