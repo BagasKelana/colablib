@@ -5,9 +5,6 @@ setup(
     version='0.1.8',
     packages=find_packages(),
     install_requires=[
-        'charset_normalizer==2.0.12',
-        'chardet==5.2.0',
-        'urllib3==2.0.4',
         'safetensors==0.3.1',
         'requests==2.27.1',
         'tqdm==4.65.0',
@@ -16,7 +13,10 @@ setup(
         'toml==0.10.2',
         'rarfile==4.0',
         'xmltodict==0.13.0',
-        'pydantic==1.10.9'
+        'pydantic==1.10.9',
+        'charset_normalizer==2.0.12',
+        'chardet==5.2.0',
+        'urllib3==2.0.4',
     ],
     author='Furqanil Taqwa',
     author_email='furqanil.taqwa@gmail.com',
