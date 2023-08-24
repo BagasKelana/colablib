@@ -14,7 +14,7 @@ setup(
         'rarfile==4.0',
         'xmltodict==0.13.0',
         'pydantic==1.10.9',
-        'charset-normalizer==2.0.12',
+        'charset-normalizer==3.2.0',
         'chardet==5.2.0',
         'urllib3==2.0.4',
     ],
